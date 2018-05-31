@@ -1,0 +1,96 @@
+<resources>
+    <string name="app_name">Crime Report</string>
+    <string-array name="lang_choser">
+        <item>Chose Your Language</item>
+        <item>English</item>
+        <item>دری</item>
+        <item>پشتو</item>
+    </string-array>
+
+
+    <string-array name="image_choser">
+        <item>Camera</item>
+        <item>Gallary</item>
+    </string-array>
+    <string-array name="choose_location">
+        <item>GPS location</item>
+        <item>Google map location</item>
+    </string-array>
+    <string name="Error">Error</string>
+    <string name="Complate">Complate</string>
+    <string name="Upload">Upload</string>
+    <string name="tab_home">Home</string>
+    <string name="tab_profile">Profile</string>
+    <string name="tab_notify">Notification</string>
+    <string name="title_of_Project">Online Crime Report</string>
+    <string name="crime_report">Crime report</string>
+    <string name="title">Title here</string>
+    <string name="select_picture">you can select multiple picture</string>
+    <string name="hint_phone">Phone Number</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_fname">first Name</string>
+    <string name="hint_lname">Last Name</string>
+    <string name="next_btn">Next</string>
+    <string name="done_btn">Done</string>
+    <string name="cancle_btn">Cancel</string>
+    <string name="hint_confirmPass">Confirm Your Password</string>
+    <string name="locationChoserBtn">Select A Location</string>
+    <string name="title_activity_user">UserActivity</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="google_maps_key">aaaaaassddddd</string>
+    <string name="title_activity_reporter">ReporterActivity</string>
+    <string name="requird_feild">requird feild</string>
+
+
+    <string name="hint_add_report_title">Title</string>
+    <string name="hint_add_report_desc">Description</string>
+    <string name="err_login">Failed To Login, please check your phone and password!</string>
+
+
+    <string name="err_weak_pass">Password must be at lest 6 character</string>
+    <string name="title_activity_profile">ProfileActivity</string>
+
+
+    <!-- TODO: sting for addReportsActivity -->
+    <string name="radio_gps">GPS</string>
+    <string name="call_phone">Call phone</string>
+    <string name="radio_map">Google Map</string>
+    <string name="radio_famous_location">Offices</string>
+    <string name="chose_img">Choose image</string>
+    <string name="menue_send">SEND</string>
+    <string name="title_activity_office_info">Info</string>
+
+
+    <string name="connection_problem">Connection problem, please check your internet connection and try again!</string>
+    <string name="connection_alert_title">Connection Problem</string>
+    <string name="btn_retry">RETRY</string>
+    <string name="btn_ok">OK</string>
+
+    <string name="select_something">please write anything, or select an image or video </string>
+    <string name="err_cant_find_location">cant find the location By gps</string>
+    <string name="menu_reporter_delete_report">DELETE</string>
+    <string name="marker_title_new_location">New Location</string>
+    <string name="marker_title_current_location">Current Location</string>
+    <string name="err_video_voice_allow">Your current report contains voice or a video</string>
+    <string name="err_max_number_of_img">You can not choose more than 4 image, please try letter.</string>
+    <string name="err_has_img">Your report can only have a video or images and a voice at the same time </string>
+    <string name="err_support_camera">Sorry! your device do not support camera.</string>
+    <string name="menue_archive">Archive</string>
+    <string name="msg_archive">Report archived</string>
+    <string name="msg_cant_archive">Can not archive right now</string>
+    <string name="action_archive">Archived reports</string>
+    <string name="no_connection">No connection available</string>
+    <string name="internet_connecting">Connecting...</string>
+    <string name="map_msg_drag_marker">Move the marker to draw a line around a custom location. or click done to submit the selected location.</string>
+    <string name="map_msg_drag_end_marker">you have selected a specific area as your location click done to save.</string>
+    <string name="map_msg_address">You have selected a location, click DONE to save.</string>
+
+    <string name="tab_for_new_location">tap on map for new location</string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_main_report">mainReport</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+</resources>

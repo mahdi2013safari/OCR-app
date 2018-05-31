@@ -1,0 +1,83 @@
+
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.lordmahdi.crime_report_app.Report.mainReport">
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="55dp"
+    android:layout_marginTop="55dp"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp"
+        android:orientation="vertical"
+        >
+        <!-- TODO: Update blank fragment layout -->
+        <EditText
+            android:id="@+id/textfield_et_label"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:inputType="text"
+            android:hint="Title"
+            />
+        <EditText
+            android:id="@+id/txtFragDescription"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:inputType="textMultiLine"
+            android:hint="Description"
+            />
+        <Switch
+            android:text="Get your location"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:id="@+id/SwitchGetLocationGPS" />
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content">
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:id="@+id/fragImgShow"
+                android:textAllCaps="false"
+                android:drawableRight="@drawable/ic_attachment"
+                android:text="Choose file"/>
+        </android.support.v7.widget.CardView>
+
+    </LinearLayout>
+</ScrollView>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab_send_new_report"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        app:useCompatPadding="true"
+        android:visibility="visible"
+        android:background="@color/black_overlay"
+        android:layout_marginBottom="70dp"
+        android:layout_marginRight="10dp"
+        app:srcCompat="@android:drawable/ic_menu_send" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab_cancel_new_report"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|left"
+        android:layout_marginLeft="10dp"
+        app:useCompatPadding="true"
+        android:visibility="visible"
+        android:background="@color/black_overlay"
+        android:layout_marginBottom="70dp"
+        android:layout_marginRight="10dp"
+        app:srcCompat="@android:drawable/ic_menu_close_clear_cancel" />
+
+</android.support.design.widget.CoordinatorLayout>

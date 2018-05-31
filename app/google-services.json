@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "48512729007",
+    "firebase_url": "https://ocr-app-316ed.firebaseio.com",
+    "project_id": "ocr-app-316ed",
+    "storage_bucket": "ocr-app-316ed.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:48512729007:android:34cb6440367a075d",
+        "android_client_info": {
+          "package_name": "com.example.lordmahdi.crime_report_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "48512729007-tuegcqilh9sgba725k7md1s4onr2kbit.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.lordmahdi.crime_report_app",
+            "certificate_hash": "6a098b025b5017cb01936e01d129bca692087626"
+          }
+        },
+        {
+          "client_id": "48512729007-rfh88jms2un0qtaju1aa680tlorv8es6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDj8HXRqOM9W4ZExHJ4foPE6Rj-gjsN0pM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "48512729007-rfh88jms2un0qtaju1aa680tlorv8es6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

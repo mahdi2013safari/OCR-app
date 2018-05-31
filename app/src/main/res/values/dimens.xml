@@ -1,0 +1,48 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+
+    <dimen name="input_width">300dp</dimen>
+    <dimen name="font_xl">50dp</dimen>
+    <dimen name="font_lg">40dp</dimen>
+    <dimen name="font_md">32dp</dimen>
+    <dimen name="font_sm">22dp</dimen>
+    <dimen name="font_xs">19dp</dimen>
+    <dimen name="padding_dimen">12dp</dimen>
+    <dimen name="margin_top">10dp</dimen>
+    <dimen name="profilPadding">30dp</dimen>
+
+
+    <dimen name="input_margin_sm">8dp</dimen>
+    <dimen name="input_margin_md">10dp</dimen>
+    <dimen name="input_margin_lg">20dp</dimen>
+    <dimen name="input_margin_xl">30dp</dimen>
+    <dimen name="fab_margin">20dp</dimen>
+    <dimen name="fab_margin_right">16dp</dimen>
+    <dimen name="profile_width">100dp</dimen>
+
+
+    <!-- TODO: dimen for addReportActivity -->
+    <dimen name="add_report_vertical_padding">12dp</dimen>
+    <dimen name="add_report_horizontal_padding">10dp</dimen>
+    <dimen name="add_report_title_verticle_padding">20dp</dimen>
+    <dimen name="add_report_vdeo_height">170dp</dimen>
+    <dimen name="add_report_vdeo_width">250dp</dimen>
+    <dimen name="add_report_music_player_height">60dp</dimen>
+    <dimen name="add_report_img_item_height">80dp</dimen>
+    <dimen name="add_report_img_item_width">110dp</dimen>
+    <dimen name="add_report_voice_icon_width">250dp</dimen>
+    <dimen name="msg_box_min_width">200dp</dimen>
+    <dimen name="msg_box_max_width">300dp</dimen>
+    <dimen name="progress_height">7dp</dimen>
+    <dimen name="btn_info_heith_width">40dp</dimen>
+
+    <dimen name="arhive_img_btn_height">70dp</dimen>
+    <dimen name="arhive_img_padding">20dp</dimen>
+
+
+    <dimen name="connection_alert_card_padding">25dp</dimen>
+    <dimen name="paddingfab">45dp</dimen>
+</resources>

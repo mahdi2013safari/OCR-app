@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:layout_margin="10dp"
+        android:id="@+id/frag_nofify_cardview">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:padding="6dp"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:id="@+id/frag_nofitiy_imageReport"
+                app:srcCompat="@drawable/ic_no_image" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="عنوان :"
+                android:textSize="10dp"
+                android:layout_alignParentEnd="true"
+                android:id="@+id/textView"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_alignTop="@+id/frag_nofify_showtextFragReplayID"
+                android:layout_toEndOf="@+id/frag_notify_ReportTitle" />
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="contentTitle"
+                android:textSize="10dp"
+                android:id="@+id/frag_notify_ReportTitle"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_alignBaseline="@+id/textView"
+                android:layout_alignBottom="@+id/textView"
+                android:layout_toStartOf="@+id/textView3" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="پاسخ از وزارت شکایات"
+                android:textSize="10dp"
+                android:id="@+id/textView3"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_centerVertical="true"
+                android:layout_alignParentEnd="true" />
+
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:text="Description of Replay Report"
+                android:textSize="10dp"
+                android:id="@+id/frag_notify_adapter_showDescription"
+                android:textDirection="rtl"
+                android:layout_alignEnd="@+id/textView3"
+
+                android:layout_below="@+id/frag_notify_adapter_showReportID"
+                android:layout_alignParentBottom="true" />
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+</RelativeLayout>

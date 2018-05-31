@@ -1,0 +1,84 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+   android:gravity="center"
+
+    tools:context="com.example.lordmahdi.crime_report_app.registration.RagisterFrag1">
+
+    <!-- TODO: Update blank fragment layout -->
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <EditText
+        android:layout_width="@dimen/input_width"
+        android:layout_height="wrap_content"
+        android:id="@+id/fragment_registration_step1_fname"
+        android:hint="First Name"
+        android:maxLines="1"
+        android:textColorHint="@color/hintColor"
+        android:background="@drawable/input_selector_primary"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:padding="@dimen/padding_dimen"
+        android:inputType="text"
+        android:layout_margin="@dimen/margin_top"
+        />
+
+    <EditText
+        android:layout_width="@dimen/input_width"
+        android:layout_height="wrap_content"
+        android:id="@+id/fragment_registration_step1_lname"
+        android:maxLines="1"
+        android:textColorHint="@color/hintColor"
+        android:background="@drawable/input_selector_primary"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:inputType="text"
+        android:hint="@string/hint_lname"
+        android:padding="@dimen/padding_dimen"
+        android:layout_margin="@dimen/margin_top"/>
+
+    <Spinner
+        android:layout_width="300dp"
+        android:layout_height="45dp"
+        android:id="@+id/fragment_ragisteration_step1_spinner_age"
+        ></Spinner>
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioMale"
+            android:layout_marginLeft="45dp"
+            android:text="Male"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioFemale"
+            android:layout_marginLeft="45dp"
+            android:text="Female"/>
+    </RadioGroup>
+
+
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Select Loation"
+        android:background="@drawable/btn_selector"
+        android:id="@+id/fragment_registration_step1_location_choserBtn"
+        android:padding="@dimen/padding_dimen"
+        android:drawableEnd="@drawable/ic_location"
+        android:textAllCaps="false"
+        android:layout_margin="@dimen/margin_top"
+        android:drawableRight="@drawable/ic_location" />
+</LinearLayout>
+
+
+</RelativeLayout>
